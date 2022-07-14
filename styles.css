@@ -1,1 +1,53 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-image: url(images/background.jpg);
+    
+}
+
+#mainHeading {
+    color: red;
+    font-size: 40px;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.headers {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 2px;
+   
+}
+
+p {
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+main {
+    border-color: blue;
+    border: 2px blue;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background: radial-gradient(circle, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
