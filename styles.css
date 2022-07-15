@@ -43,7 +43,7 @@ main {
     border: 2px blue;
 }
 
-article {
+section {
     display: flex;
     flex-direction: column;
     justify-content: center;
