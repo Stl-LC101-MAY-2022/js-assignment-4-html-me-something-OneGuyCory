@@ -1,1 +1,65 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-image: url(images/background.jpg);
+}
+
+
+
+.headers {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 24px; 
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: gainsboro;
+}
+
+#mainHeading {
+    color: red;
+    text-align: center; 
+}
+
+.images {
+    
+    box-sizing: border-box;
+    border-style: inset;  
+}
+
+p {
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    border-top-color: gray;
+    border-bottom-color: gray;
+}
+
+.funParagraph {
+    color: green;   
+}
+
+main {
+    border-color: blue;
+    border: 2px blue;
+}
+
+article {
+    background-color: black;
+    background: radial-gradient(circle, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    border-style: groove;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 15px;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    color: gainsboro;
+    font-size: 20px;
+}
