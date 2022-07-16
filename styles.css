@@ -2,43 +2,42 @@ body {
     margin: 8px;
     display: block;
     background-image: url(images/background.jpg);
-    
 }
 
 #mainHeading {
     color: red;
-    font-size: 40px;
-    text-align: center;
+    text-align: center; 
 }
-
-
 
 .headers {
     text-align: center;
     color: whitesmoke;
-    font-size: 24px;
+    font-size: 24px; 
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: gainsboro;
 }
 
 .images {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: double;
-    border-radius: 5px;
-    border-width: 2px;
-   
+    
+    box-sizing: border-box;
+    border-style: inset;  
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     color: whitesmoke;
     text-align: center;
     padding: 15px;
-    
+    border-top-color: gray;
+    border-bottom-color: gray;
 }
 
 .funParagraph {
-    color: green;
+    color: green;   
 }
 
 main {
@@ -46,20 +45,19 @@ main {
     border: 2px blue;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+article {
     background-color: black;
     background: radial-gradient(circle, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    border-style: groove;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 15px;
+    width: 50%;
 }
 
-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    background: radial-gradient(circle, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+footer {
+    text-align: center;
+    color: gainsboro;
+    font-size: 20px;
 }
