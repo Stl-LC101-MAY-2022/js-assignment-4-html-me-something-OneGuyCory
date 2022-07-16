@@ -4,10 +4,7 @@ body {
     background-image: url(images/background.jpg);
 }
 
-#mainHeading {
-    color: red;
-    text-align: center; 
-}
+
 
 .headers {
     text-align: center;
@@ -19,6 +16,11 @@ h1 {
     font-size: 50px;
     text-align: center;
     color: gainsboro;
+}
+
+#mainHeading {
+    color: red;
+    text-align: center; 
 }
 
 .images {
